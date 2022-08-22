@@ -11,6 +11,6 @@ def autowrite(file):
         time.sleep(0.00001)
         pag.hotkey('ctrl','v')
         time.sleep(0.00001)
-file=open("file.txt", "r")
+file=open("filetowrite.txt", "r")
 autowrite(file.read())
 file.close()
