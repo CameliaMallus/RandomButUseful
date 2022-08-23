@@ -2,11 +2,10 @@ import pyautogui as pag
 import pyperclip as ppc
 import time
 import random
-pag.click(240,50)
-#pag.click(170,915)
-pag.click(1750,74)
+pag.click(0,0) # (optional) click on tab
+pag.click(0,0) # click where text will be
 def autowrite(file):
-    time.sleep(1.5)
+    time.sleep(1)
     pag.PAUSE=0.0
     for x in file:
         ppc.copy(x)
