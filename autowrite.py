@@ -17,3 +17,5 @@ def autowrite(file):
 file=open("filetowrite.txt", "r")
 autowrite(file.read())
 file.close()
+
+# Make c++
